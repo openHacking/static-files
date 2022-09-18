@@ -59,6 +59,10 @@ window.boot = function () {
       cc.assetManager.downloader.maxRequestsPerFrame = 2;
     }
 
+    cc.assetManager.downloader.maxConcurrency = 1000;
+    cc.assetManager.downloader.maxRequestsPerFrame = 1000;
+    cc.assetManager.downloader.limited = false;
+
     var launchScene = settings.launchScene;
     var bundle = cc.assetManager.bundles.find(function (b) {
       return b.getSceneInfo(launchScene);

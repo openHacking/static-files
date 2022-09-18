@@ -1,0 +1,16 @@
+{
+  "name": "static-files",
+  "version": "0.0.1",
+  "description": "openHacking",
+  "author": "openHacking",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://openHacking@github.com/openHacking/static-files.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openHacking/static-files/issues"
+  },
+  "homepage": "https://github.com/openHacking/static-files#readme"
+}

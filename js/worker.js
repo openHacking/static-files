@@ -1,0 +1,1 @@
+console.log('lwebapp.com Web Worker Test')
